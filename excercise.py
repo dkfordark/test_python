@@ -55,9 +55,30 @@ print(ltuple);
 '''
 
 # Bai 5:
+'''
+class InOutString:
+    def __init__(self):
+        self.s = "";
+    
+    def getString (self):
+        self.s = input("nhap chuoi: ");
 
+    def printString (self):
+        print (self.s.upper());
+    
+strObj = InOutString();
+strObj.getString();
+strObj.printString();
+'''
 
+# Bai 6
+'''
+def tinhbinhphuong(n):
+    return n**2;
 
+numb = int(input("nhap so can binh phuong : "));
+print(tinhbinhphuong(numb));
+'''
 
 
 
