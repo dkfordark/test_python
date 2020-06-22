@@ -14,10 +14,10 @@ for i in range(2000, 3200):
         j.append(str(i));
 
 print (','.join(j));
-'''
+
 
 # bai 2:
-'''
+
 x = int(input("Nhập số cần tính giai thừa : "));
 def fact(x):
     if x == 0:
@@ -37,28 +37,28 @@ def tinhgiaithua(n):
 
 n = int(input("so can tinh giai thua : "));
 print (tinhgiaithua(n));
-'''
+
 
 # Bai 3
-'''
+
 d = {};
 n = int(input("nhap vao so nguyen  n : "));
 for i in range (1, n+1):
     d[i] = i * i;
 print (d);
-'''
+
 
 # Bai 4
-'''
+
 dayso = input("hay nhap cac so, cach nhau boi dau ',': ");
 l = dayso.split(',');
 print(l);
 ltuple = tuple(l);
 print(ltuple);
-'''
+
 
 # Bai 5:
-'''
+
 class InOutString:
     def __init__(self):
         self.s = "";
@@ -72,16 +72,28 @@ class InOutString:
 strObj = InOutString();
 strObj.getString();
 strObj.printString();
-'''
+
 
 # Bai 6
-'''
+
 def tinhbinhphuong(n):
     return n**2;
 
 numb = int(input("nhap so can binh phuong : "));
 print(tinhbinhphuong(numb));
 '''
+
+# Bai 7
+print("abc");
+
+def square (num):
+    '''
+        tra lai gia tri binh phuong cua so duoc nhap vao 
+        so nhap vao la so nguyen
+    '''
+    return num ** 2;
+
+print (square.__doc__);
 
 
 
