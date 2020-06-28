@@ -17,6 +17,7 @@ print (square.__doc__);
 """
 
 # Bai 9
+
 import math;
 C = 50;
 H = 30;
@@ -32,3 +33,8 @@ for D in value :
     print (Q);
 #Q = round(math.sqrt((2*C*D)/H));
 print (Q);
+"""
+
+# Bai 10
+
+
